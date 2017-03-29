@@ -5,3 +5,6 @@
 @import "ourwork";
 @import "aboutus";
 @import "footer";
+@media (min-width: 1200px) {
+    .area { width: 1170px; }
+}

@@ -435,15 +435,16 @@ body {
   margin-right: 30px;
   color: #222;
   text-align: center;
+  min-width: 1200px;
 }
 
-/* line 19, ../sass/_main.scss */
+/* line 20, ../sass/_main.scss */
 li:before, li:after,
 .our-work__item--hover {
   transition: all .1s ease-in;
 }
 
-/* line 24, ../sass/_main.scss */
+/* line 25, ../sass/_main.scss */
 h1 {
   font-family: Raleway, Arial, sans-serif;
   font-size: 48px;
@@ -452,7 +453,7 @@ h1 {
   text-transform: uppercase;
 }
 
-/* line 31, ../sass/_main.scss */
+/* line 32, ../sass/_main.scss */
 h2 {
   font-family: Raleway, Arial, sans-serif;
   font-size: 35px;
@@ -461,19 +462,19 @@ h2 {
   text-transform: uppercase;
 }
 
-/* line 38, ../sass/_main.scss */
+/* line 39, ../sass/_main.scss */
 h4 {
   font-family: Lato, Arial, sans-serif;
   font-size: 24px;
   text-transform: capitalize;
 }
 
-/* line 43, ../sass/_main.scss */
+/* line 44, ../sass/_main.scss */
 .clear {
   clear: both;
 }
 
-/* line 47, ../sass/_main.scss */
+/* line 48, ../sass/_main.scss */
 .row-cont {
   max-width: 1170px;
   box-sizing: border-box;
@@ -483,7 +484,7 @@ h4 {
   margin: auto;
 }
 
-/* line 54, ../sass/_main.scss */
+/* line 55, ../sass/_main.scss */
 #shortline {
   position: absolute;
   left: 47%;
@@ -951,4 +952,11 @@ body > div.row.about-us > div {
   box-sizing: border-box;
   -webkit-box-sizing: border-box;
   -moz-box-sizing: border-box;
+}
+
+@media (min-width: 1200px) {
+  /* line 9, ../sass/style.scss */
+  .area {
+    width: 1170px;
+  }
 }
