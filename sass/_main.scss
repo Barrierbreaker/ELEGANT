@@ -1,0 +1,62 @@
+$font-raleway: Raleway, Arial, sans-serif;
+$font-lato: Lato, Arial, sans-serif;
+
+@mixin box-sizing {
+  box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+}
+@import url('https://fonts.googleapis.com/css?family=Lato:100,400,400i|Raleway:700');
+
+body {
+  margin: 0px 34px;
+        margin-right: 30px;
+  color: #222;
+    text-align: center;
+}
+
+
+li:before, li:after,
+.our-work__item--hover {
+
+  transition: all .1s ease-in;
+}
+h1 {
+  font-family: $font-raleway;
+  font-size: 48px;
+  font-weight: 700;
+  line-height: 60px;
+  text-transform: uppercase;
+}
+h2 {
+  font-family: $font-raleway;
+  font-size: 35px;
+  font-weight: 700;
+  line-height: 60px;
+  text-transform: uppercase;
+}
+h4 {
+  font-family: $font-lato;
+  font-size: 24px;
+  text-transform: capitalize;
+}
+.clear {
+  clear: both;
+}
+
+.row-cont {
+  max-width: 1170px;
+  @include box-sizing;
+  padding-top: 50px;
+  margin: auto;
+ 
+}
+#shortline {
+  position: absolute;
+  left: 47%;
+  vertical-align: top;
+  border-top: 2px solid #fb6b45;
+  width: 86px;
+  padding-top: 6px;
+    margin-top: 5px;
+}

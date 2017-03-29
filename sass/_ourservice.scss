@@ -1,0 +1,35 @@
+.our-services__cont {
+  display: flex;
+     margin-top: 94px;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  margin-bottom: 110px;
+    padding-bottom: 29px;
+    div:nth-child(3)>img{margin-top: 20px;
+    }
+    div:nth-child(3) > div {margin-top: -4px;}
+    div:nth-child(2) > div{   margin-top: -4px;}
+    div:nth-child(1)>h4{padding-top: 12px;}
+    div:nth-child(2) > h4{margin-top: 25px;}
+    div:nth-child(3) > h4{margin-top: 38px;}
+}
+
+.our-services__item {
+  max-width: 32%;
+}
+.our-services__item-text {
+  font-family: $font-lato;
+  font-size: 16px;
+  line-height: 30px;
+    margin-top: -7px;
+}
+#our-services {
+    div{
+        h2{margin-top: 49px;}
+        #shortline{margin-top: 28px;}
+    }
+}
+body > div.row.about-us > div > div{ padding-top: 74px;}
+body > div.row.about-us > div > div > p {margin-top: -6px;}
+body > div.row.about-us > div > div > div > label{    margin: 36px -52px;}
+body > div.row.about-us > div > div > div > div{margin: -39px -233px;}
